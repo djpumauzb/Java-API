@@ -1,0 +1,4 @@
+янв. 31, 2024 7:58:57 AM Leksiya.less2.logger main
+WARNING: Тестовое логирование 1
+янв. 31, 2024 7:58:57 AM Leksiya.less2.logger main
+INFO: Тестовое логирование 2

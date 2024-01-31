@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-01-31T03:34:55.630706900Z</date>
+  <millis>1706672095630</millis>
+  <nanos>706900</nanos>
+  <sequence>0</sequence>
+  <logger>Leksiya.less2.logger</logger>
+  <level>WARNING</level>
+  <class>Leksiya.less2.logger</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Тестовое логирование 1</message>
+</record>
+<record>
+  <date>2024-01-31T03:34:55.680310Z</date>
+  <millis>1706672095680</millis>
+  <nanos>310000</nanos>
+  <sequence>1</sequence>
+  <logger>Leksiya.less2.logger</logger>
+  <level>INFO</level>
+  <class>Leksiya.less2.logger</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Тестовое логирование 2</message>
+</record>
+</log>
