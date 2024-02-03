@@ -19,9 +19,10 @@ public class tsk4 {
 
     static void task4(String str) {
         try {
-            FileWriter fileWriter = new FileWriter("text.txt", true); // true bo'lsa ustidan qo'shib yozadi.
-            fileWriter.write(str);
-            fileWriter.flush();
+            try (FileWriter fileWriter = new FileWriter("text.txt", true)) {
+                fileWriter.write(str);
+                fileWriter.flush();
+            }
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
