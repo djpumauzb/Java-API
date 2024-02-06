@@ -1,4 +1,4 @@
-package Lesson_04;
+package Leksiya.less4;
 
 import java.util.*;
 
