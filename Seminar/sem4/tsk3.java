@@ -1,5 +1,7 @@
 package Seminar.sem4;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -9,17 +11,29 @@ import java.util.Stack;
  */
 public class tsk3 {
     public static void main(String[] args) {
-        
+        String[] arr = { "hello", "hi", "1234", "*%$#*&" };
+        task3_v1(arr);
+        task3_v2(arr);
     }
 
-    public static String task3_v1(String[] arr) {
+    static void task3_v1(String[] arr) {
         Stack<String> stack = new Stack<>();
-        for (int i = 0; i < stack.size(); i++) {
+        for (int i = 0; i < arr.length; i++) {
             stack.push(arr[i]);
         }
-        for (int i = 0; i < stack.size(); i++) {
-            stack.pop();
-            
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(stack.pop());
+        }
+    }
+
+    static void task3_v2(String[] arr) {
+        Queue<String> queue = new LinkedList<>();
+
+        for (int i = 0; i < arr.length; i++) {
+            queue.add(arr[i]);
+        }
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(queue.poll());
         }
     }
 }
