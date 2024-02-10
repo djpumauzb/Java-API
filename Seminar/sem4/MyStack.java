@@ -22,7 +22,7 @@ public class MyStack {
     }
 
     int peek() {
-        return arr[size-1];
+        return arr[size - 1];
     }
 
     int pop() {
