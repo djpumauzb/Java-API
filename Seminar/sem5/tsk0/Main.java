@@ -20,8 +20,10 @@ public class Main {
         passports.add("234432", "Иванов");
         passports.add("654321", "Петрова");
         passports.add("345678", "Иванов");
-        System.out.println(passports.getAll());
+        //System.out.println(passports.getAll());
         System.out.println();
-        System.out.println(passports.getBylastName("Иванов"));
+        //System.out.println(passports.getBylastName("Иванов"));
+        System.out.println();
+        System.out.println(passports.getByPassnum(654321));
     }
 }

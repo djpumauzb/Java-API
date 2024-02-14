@@ -10,8 +10,8 @@ public class Passports {
         map.put(passNum, lastName);
     }
 
-    String geByPassnum(String passNum) {
-        return passNum + " : " + map.get(passNum);
+    String getByPassnum(int i) {
+        return i + " : " + map.get(i);
     }
 
     String getBylastName(String lastName) {

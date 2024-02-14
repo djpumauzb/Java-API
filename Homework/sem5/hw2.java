@@ -68,5 +68,6 @@ class NamesCounter {
     // Метод для вывода содержимого HashMap
     public void showNamesOccurrences() {
         // Введите свое решение ниже
+        
     }
 }
