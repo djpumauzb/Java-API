@@ -2,8 +2,6 @@ package Homework.sem6;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Map;
-import java.util.stream.Collectors;
 
 /*
 Реализуйте структуру телефонной книги с помощью HashMap.
